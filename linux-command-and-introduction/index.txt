@@ -75,3 +75,174 @@ Shell → Displays the result to the User
 */
 
 
+Linux command List:
+
+1.echo "Hello Develops"
+desc:echo command we use for print something.
+
+2.ls (list)
+desc:it show the list of current path
+Example:
+file1.txt  folder1  script.sh
+
+
+3.mkdir (make directry)
+desc:using to make new directry(folder)
+example: mkdir my_folder
+
+4.pwd (Print Working Directory)
+Description: Displays the full path of the current directory.
+example:/home/user/Documents
+
+5.cd <directory_name> (Change Directory)
+Description: Moves into the specified directory.
+example:
+cd my_folder
+
+
+6.rm <file_name> (Remove File)
+Description: Deletes a file permanently
+
+7.rm -r -v <directory_name> (Remove Directory)
+Description: Deletes a directory and all its contents.
+note: The -v (verbose) flag displays a message when the command is executed.
+
+Breaking Down the Flags:
+-r (recursive) → Removes all files and subdirectories.
+-f (force) → Forces deletion without confirmation.
+-v (verbose) → Shows messages for each deleted file/directory.
+
+8.cp <source> <destination> (Copy File/Folder)
+Description: Copies files or directories from one location to another.
+example:cp file1.txt /home/user/backup/
+
+9.mv <source> <destination> (Move/Rename)
+Description: Moves or renames a file or directory.
+example:
+mv oldname.txt newname.txt
+
+10.touch <file_name> (Create File)
+Description: Creates a new empty file.
+example:
+touch notes.txt
+
+11.cat <file_name> (View File Content)
+Description: Displays the content of a file.
+example:
+cat notes.txt
+output:
+This is a sample text inside notes.txt.
+
+12.nano <file_name> (Edit File)
+Description: Opens a file in the nano text editor for editing.
+example:nano notes.txt
+output:The file "notes.txt" opens in nano editor.
+
+13.vim <file_name> (Edit File in Vim)
+Description: Opens a file in the vim editor (advanced users).
+example:
+
+14.chmod 777 <file_name> (Change File Permissions)
+Description: Grants full read, write, and execute permissions to a file.
+example:chmod 777 script.sh
+
+15.chown user:group <file_name> (Change File Owner)
+Description: Changes the owner and group of a file.
+example:chown john:developers project.zip
+
+16.whoami (Current User)
+Description: Shows the currently logged-in user.
+example:whoami
+ouutput:hemant
+
+17.ps aux (List Running Processes)
+Description: Displays all currently running processes.
+
+18.top (Monitor System Performance)
+Description: Shows a live view of system processes and resource usage.
+
+19.kill <PID> (Terminate Process)
+Description: Stops a process using its Process ID (PID).
+
+20.ping <website> (Check Network Connection)
+Description: Tests connectivity to a server or website.
+example:ping google.com
+
+21.cd ~ (move to home directories)
+
+
+
+What is vim?
+Ans
+Vim (Vi IMproved) - A Powerful Text Editor
+📌 Description:
+Vim is an advanced text editor for Linux, widely used for programming and system administration. It is an improved version of Vi, featuring syntax highlighting, 
+multi-level undo, and powerful search & replace.
+coms: vim text.txt
+
+/*
+Vim Modes 📝
+Vim has three main modes:
+
+1️⃣ Normal Mode (Default Mode)
+
+Used for navigation and editing commands.
+Press Esc to return to this mode.
+2️⃣ Insert Mode (For Typing Text)
+
+Press i to enter Insert mode and start typing.
+Press Esc to exit Insert mode.
+3️⃣ Command Mode (For Saving & Exiting)
+
+Press : to enter command mode.
+Useful for saving, quitting, and executing commands.
+
+
+Basic Vim Commands 🚀
+Command	Description
+i	- Insert mode (start typing)
+Esc - 	Return to normal mode
+:w -	Save the file
+:q	Quit Vim
+:wq or ZZ	Save and quit
+:q!	Quit without saving
+dd	Delete a line
+yy	Copy a line (yank)
+p	Paste after the cursor
+/word	Search for "word" in file
+u	Undo last action
+Ctrl + r	Redo last undone action
+
+*/
+
+Q.apt
+apt (Advanced Package Tool) - Linux Package Manager
+Description:
+apt (Advanced Package Tool) is a package management system used in Debian-based Linux distributions like Ubuntu, Debian, and Linux Mint. It allows users to install, update, upgrade, and remove software packages from the command line.
+
+Common apt Commands 🚀
+Command	Description
+sudo apt update	Updates the package list (metadata) from repositories.
+sudo apt upgrade	Upgrades all installed packages to their latest versions.
+sudo apt install <package>	Installs a new package.
+sudo apt remove <package>	Removes an installed package (keeps config files).
+sudo apt purge <package>	Completely removes a package along with config files.
+sudo apt autoremove	Removes unnecessary dependencies.
+sudo apt clean	Clears cached package files.
+apt list --installed	Lists all installed packages.
+apt search <package>	Searches for a package in the repositories.
+apt show <package>	Displays detailed info about a package.
+
+1.sudo apt-get update
+📌 Fetches the latest package list from configured repositories but does not upgrade installed packages.
+
+2. sudo apt upgrade
+ Upgrades all installed packages to their latest available versions while keeping the current system structure intact.
+
+🔹 Breakdown:
+sudo → Runs the command with admin (root) privileges
+apt → The package manager for Debian-based systems
+upgrade → Upgrades installed packages without removing anything
+
+
+//What is 
