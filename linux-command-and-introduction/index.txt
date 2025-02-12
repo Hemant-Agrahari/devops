@@ -1,0 +1,77 @@
+
+What is linux?
+Ans:
+Linux is an open-source, Unix-like operating system based on the Linux kernel, originally created by Linus Torvalds in 1991. It is widely used in servers, desktops, cloud computing, mobile devices (Android), embedded systems, and supercomputers.
+
+Key Components of Linux
+Kernel 🧠 – The core of Linux that manages hardware, memory, and processes.
+Shell (Command Line Interface - CLI) 💻 – A program that allows users to interact with the OS via commands.
+File System 📂 – Organizes and stores files hierarchically.
+Graphical User Interface (GUI) 🖥️ – Desktop environments like GNOME, KDE, and XFCE.
+
+
+/*
+Types of Linux :
+
+Linux itself is a kernel, and different Linux distributions (distros) are built on top of it. These distros can be categorized based on their use cases, mainly into:
+
+Client (Desktop) OS – Designed for personal use, with a graphical user interface (GUI).
+Examples: Ubuntu Desktop, Fedora Workstation, Linux Mint, Manjaro, Pop!_OS
+
+Server OS – Optimized for performance, security, and stability, often without a GUI.
+
+
+Examples: Ubuntu Server, CentOS, Debian Server, RHEL (Red Hat Enterprise Linux), SUSE Linux Enterprise Server,Fedora,ubantu
+*/
+
+/*
+Why we use linux os?
+1.Why Use Linux OS?
+Linux is widely used for its stability, security, flexibility, and performance. Here are the key reasons why people choose Linux:
+
+1. Open Source & Free
+Most Linux distributions are free to use and modify.
+No licensing fees like Windows or macOS.
+
+2. High Security 🔒
+Less vulnerable to viruses and malware compared to Windows.
+Strong user permission model prevents unauthorized access.
+Regular security updates from the community.
+
+3. Stability & Performance 🚀
+Highly stable, often used in servers, cloud computing, and embedded systems.
+Can run for years without needing a reboot.
+Efficient resource usage, making it ideal for old and new hardware alike.
+
+
+4. Customization & Flexibility 🎨
+Choose from different Linux distros (Ubuntu, Fedora, Debian, RHEL, etc.) based on your needs.
+Modify everything, from the kernel to the user interface.
+Lightweight options available for low-end hardware.
+
+5. Development & Programming Friendly 💻
+Comes with built-in support for C, C++, Python, Java, Bash, etc.
+Package managers like APT (Debian/Ubuntu), YUM/DNF (RHEL/Fedora), and Pacman (Arch) simplify software installation.
+Preferred by developers for its powerful command-line interface.
+
+6. Server & Cloud Computing 🌐
+Most web servers run on Linux-based OS (e.g., Ubuntu Server, CentOS, RHEL).
+Used in AWS, Google Cloud, Microsoft Azure, Kubernetes, and Docker environments.
+High uptime and strong networking capabilities.
+
+7. Privacy & No Forced Updates 🔏
+No data tracking like in Windows/macOS.
+You control when and how updates are applied.
+*/
+
+/*
+How Kernal,OS and shell connect:
+How Are They Related? 🤝
+User → Enters command in CLI (Shell)
+Shell → Sends the command to the Kernel
+Kernel → Interacts with hardware to execute the command
+Kernel → Sends output back to the Shell
+Shell → Displays the result to the User
+*/
+
+
